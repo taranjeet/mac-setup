@@ -1,1 +1,29 @@
 # mac-setup
+
+## System Preferences
+
+#### Trackpad
+
+* Point & Click
+
+  * Look up & data detectors with *Tap with three fingers*
+  * Tap to click with *Tap with one finger*
+  * Tracking Speed to *Fast*
+
+#### Dock
+
+* Check *Automatically hide and show the Dock*
+
+#### Users & Groups
+
+* Disable Guest Login
+
+#### Finder
+
+* View
+  * Switch to *as Columns*
+  * Switch to *Arrange by* as *Name*
+  
+#### Menubar
+
+* Change battery to display percentage
