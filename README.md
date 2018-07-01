@@ -27,3 +27,17 @@
 #### Menubar
 
 * Change battery to display percentage
+
+## Packages
+
+### Xcode
+
+```
+xcode-select --install
+```
+
+### Brew
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
