@@ -14,6 +14,12 @@
 
 * Check *Automatically hide and show the Dock*
 
+#### Display
+
+* Night Shift
+
+ * Check *Turn On Until Tomorrow*
+
 #### Users & Groups
 
 * Disable Guest Login
