@@ -95,13 +95,17 @@ git clone https://github.com/taranjeet/dotfiles.git ~/.dotfiles
 ### Update Zsh Preferences
 
 ```
+cp ~/.dotfiles/.gitconfig ~
+
+# edit zsh config
 vim ~/.zshrc
 for file in ~/.dotfiles/.{aliases,functions}; do
     [ -r "$file" ] && source "$file"
 done
 unset file
 
-cp ~/.dotfiles/.gitconfig ~
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
 ```
 
 
