@@ -108,5 +108,14 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 ```
 
+### Sublime
 
+Download Sublime 3 from [here](https://www.sublimetext.com/3). Setup `subl` alias to open Sublime from command line
+
+```
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+```
+
+* Install Package Control from [here](https://packagecontrol.io/installation)
+* Install [Dracula Color Theme](https://draculatheme.com/sublime/) using Package Control
 
