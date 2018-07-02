@@ -47,3 +47,43 @@ xcode-select --install
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+
+### Vim
+
+```
+brew install vim
+```
+
+### Generate ssh key
+
+```
+ssh key-gen
+cat .ssh/id_rsa.pub
+```
+
+### Git
+
+```
+brew install git
+```
+
+### Iterm2
+
+Download and install iterm2 from [here](https://www.iterm2.com/downloads.html)
+
+#### Iterm2 Preferences
+
+* Profiles
+
+ * Terminal
+  * Check Unlimited Scrollback
+
+### Oh My Zsh
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+
+
+
