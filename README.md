@@ -119,3 +119,21 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loca
 * Install Package Control from [here](https://packagecontrol.io/installation)
 * Install [Dracula Color Theme](https://draculatheme.com/sublime/) using Package Control
 
+### Python
+
+```
+brew install python@2
+# check if python and pip both are pointing to version 2
+
+pip install virtualenv
+```
+
+### Node.js
+
+```
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+source ~/.zshrc
+nvm install v8.9
+```
+
+
