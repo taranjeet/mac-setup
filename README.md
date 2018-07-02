@@ -84,6 +84,25 @@ Download and install iterm2 from [here](https://www.iterm2.com/downloads.html)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
+### Setup Dotfiles
+
+Setup dotfiles from this [repo](https://github.com/taranjeet/dotfiles)
+
+```
+git clone https://github.com/taranjeet/dotfiles.git ~/.dotfiles
+```
+
+### Update Zsh Preferences
+
+```
+vim ~/.zshrc
+for file in ~/.dotfiles/.{aliases,functions}; do
+    [ -r "$file" ] && source "$file"
+done
+unset file
+
+cp ~/.dotfiles/.gitconfig ~
+```
 
 
 
