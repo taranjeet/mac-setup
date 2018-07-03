@@ -30,6 +30,11 @@
   * Switch to *as Columns*
   * Switch to *Arrange by* as *Name*
   
+ * Add Home folder in Sidebar
+  * Open Finder, Press *Command + Shift + H*, then *Command + Up Arrow* and then drag and drop Home folder to side bar.
+ 
+ * Remove *All My Files* from sidebar by right clicking and selecting *Remove from Sidebar*
+  
 #### Menubar
 
 * Change battery to display percentage
