@@ -182,4 +182,18 @@ Download tar file of required version of elasticsearch from [here](https://www.e
 ```
 mv ~/Downloads/elasticsearch-6.3.1.tar.gz ~/binaries
 tar -xvzf elasticsearch-6.3.1.tar.gz
+
+# to run
+./bin/elasticsearch
+```
+
+#### Update Elasticsearch preferences
+
+In `config/elasticsearch.yml`, update `cluster.name` to a custom value.
+
+In `config/jvm.options`, remove `-Xms1g` and `-Xmx1g`, and add the following
+
+```
+-Xms500m
+-Xmx500m
 ```
