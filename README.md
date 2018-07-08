@@ -126,7 +126,8 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loca
 
 * Install Package Control from [here](https://packagecontrol.io/installation)
 * Install [Dracula Color Theme](https://draculatheme.com/sublime/) using Package Control
-* Keep the icon for Sublime in Dock by right clicking on the running application, then selecting *Options* and then *Keep in Dock*. 
+* Keep the icon for Sublime in Dock by right clicking on the running application, then selecting *Options* and then *Keep in Dock*.
+* Change Sublime Color Scheme by *Sublime Text > Preferences > Settings* and then selecting *Dracula* as the option.
 
 ### Python
 
