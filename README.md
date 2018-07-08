@@ -80,6 +80,9 @@ Download and install iterm2 from [here](https://www.iterm2.com/downloads.html)
 
 * Profiles
 
+ * General
+  * Check *Reuse previous session directory* under *Working Directory*
+
  * Terminal
   * Check Unlimited Scrollback
 
