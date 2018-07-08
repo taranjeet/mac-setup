@@ -160,3 +160,26 @@ Install flycut from [here](https://github.com/TermiT/Flycut/releases). Update Fl
 brew install htop
 ```
 
+### Custom folders
+
+```
+mkdir binaries myapps
+```
+
+
+### Java
+
+Download jdk 8 from this [link](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) after accepting the Agreement Terms. Open dmg and follow through the setup process. Check if java is installed properly by running
+
+```
+java -version
+```
+
+### Elasticsearch
+
+Download tar file of required version of elasticsearch from [here](https://www.elastic.co/downloads/elasticsearch). When writing this doc, the latest version is *6.3*. Move the tar to `binaries` folder and extract it.
+
+```
+mv ~/Downloads/elasticsearch-6.3.1.tar.gz ~/binaries
+tar -xvzf elasticsearch-6.3.1.tar.gz
+```
