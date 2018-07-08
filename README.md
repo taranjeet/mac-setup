@@ -210,3 +210,7 @@ Download the tar file of required version(latest 6.3) from [here](https://www.el
 mv Downloads/kibana-6.3.1-darwin-x86_64.tar.gz binaries/
 tar -xvzf kibana-6.3.1-darwin-x86_64.tar.gz
 ```
+
+### Vlc
+
+Download vlc from this [link](https://www.videolan.org/vlc/download-macosx.html)
