@@ -197,3 +197,12 @@ In `config/jvm.options`, remove `-Xms1g` and `-Xmx1g`, and add the following
 -Xms500m
 -Xmx500m
 ```
+
+### Kibana
+
+Download the tar file of required version(latest 6.3) from [here](https://www.elastic.co/downloads/kibana). Move the tar to `binaries` folder and extract it.
+
+```
+mv Downloads/kibana-6.3.1-darwin-x86_64.tar.gz binaries/
+tar -xvzf kibana-6.3.1-darwin-x86_64.tar.gz
+```
