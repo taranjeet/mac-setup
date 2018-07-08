@@ -154,4 +154,9 @@ Install flycut from [here](https://github.com/TermiT/Flycut/releases). Update Fl
 
 * Check *Launch FLycut on login*
 
+### Htop
+
+```
+brew install htop
+```
 
