@@ -214,3 +214,7 @@ tar -xvzf kibana-6.3.1-darwin-x86_64.tar.gz
 ### Vlc
 
 Download vlc from this [link](https://www.videolan.org/vlc/download-macosx.html)
+
+### Evernote
+
+Download evernote from this [link](https://evernote.com/download)
