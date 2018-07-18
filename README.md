@@ -85,6 +85,8 @@ Download and install iterm2 from [here](https://www.iterm2.com/downloads.html)
 
  * Terminal
   * Check Unlimited Scrollback
+ 
+ * Follow this [link](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x) to jump words backward/forward.
 
 ### Oh My Zsh
 
