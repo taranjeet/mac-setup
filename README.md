@@ -130,6 +130,8 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loca
 * Install [Dracula Color Theme](https://draculatheme.com/sublime/) using Package Control
 * Keep the icon for Sublime in Dock by right clicking on the running application, then selecting *Options* and then *Keep in Dock*.
 * Change Sublime Color Scheme by *Sublime Text > Preferences > Settings* and then selecting *Dracula* as the option.
+* Install sublime packages from [dotfiles](https://github.com/taranjeet/dotfiles) repo.
+* Configure Babel to open jsx file as babel intrepreted by following this [link](https://github.com/babel/babel-sublime#setting-as-the-default-syntax)
 
 ### Python
 
