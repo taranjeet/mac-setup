@@ -168,6 +168,24 @@ Install flycut from [here](https://github.com/TermiT/Flycut/releases). Update Fl
 brew install htop
 ```
 
+### Tree
+
+```
+brew install tree
+```
+
+### Custom Python packages
+
+```
+pip install grip
+```
+
+### Custom Npm packages
+
+```
+npm install -g create-react-app
+```
+
 ### Custom folders
 
 ```
