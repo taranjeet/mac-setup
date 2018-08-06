@@ -39,6 +39,10 @@
 
 * Change battery to display percentage
 
+#### Mission Control
+
+* Uncheck *Automatically rearrange Spaces based on most recent use*
+
 ## Packages
 
 ### Xcode
@@ -116,6 +120,10 @@ unset file
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+# maintain history per tab level
+unsetopt inc_append_history
+unsetopt share_history
 ```
 
 ### Sublime
