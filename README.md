@@ -200,6 +200,16 @@ npm install -g create-react-app
 mkdir binaries myapps
 ```
 
+### Mysql
+
+```
+# install mysql 5.6
+brew install mysql
+brew postinstall mysql
+mysql_secure_installation
+login to shell and run the following query
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+```
 
 ### Java
 
