@@ -43,6 +43,11 @@
 
 * Uncheck *Automatically rearrange Spaces based on most recent use*
 
+#### Keyboard
+
+* Text
+  * Uncheck *Add period with double-space*
+
 ## Packages
 
 ### Xcode
