@@ -181,6 +181,12 @@ Install flycut from [here](https://github.com/TermiT/Flycut/releases). Update Fl
 brew install htop
 ```
 
+### Wget
+
+```
+brew install wget --with-libressl
+```
+
 ### Tree
 
 ```
