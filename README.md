@@ -269,3 +269,79 @@ Download vlc from this [link](https://www.videolan.org/vlc/download-macosx.html)
 ### Evernote
 
 Download evernote from this [link](https://evernote.com/download)
+
+### MTMR
+
+Download MTMR from [here](https://github.com/Toxblh/MTMR) and use the following preferences
+
+```
+[
+    {
+        "type": "escape",
+        "width": 64,
+        "align": "left"
+    },
+    { "type": "brightnessDown", "width": 56, "bordered": true, "align": "left" },
+    { "type": "brightnessUp", "width": 56, "bordered": true, "align": "left" },
+    {
+        "type": "nightShift",
+        "width": 36,
+        "align": "left"
+    },
+    {
+        "type": "appleScriptTitledButton",
+        "source": {
+            "inline": "if application \"Spotify\" is running then\rtell application \"Spotify\"\rif player state is playing then\rreturn (get artist of current track) & \" – \" & (get name of current track)\relse\rreturn \"\"\rend if\rend tell\rend if\rreturn \"\"\r"
+        },
+        "action": "appleScript",
+        "actionAppleScript": {
+            "inline": "if application \"Spotify\" is running then\rtell application \"Spotify\"\rif player state is playing then\rnext track\rend if\rend tell\rend if\r"
+        },
+        "refreshInterval": 1,
+        "image": {
+            "base64": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAYUExURUdwTB3WXx3UXh3VXx7XYBkXFRpVLRyURmIaeAQAAAAEdFJOUwDDO3fSqUUkAAABbklEQVRIx61VbW6DMAztoAeYNA7ApB6gkzhAWS24wIAL0HABaK6/pHFNEhy8TXu/kPzkPD/8cTj8K7KPAqB+K5NhQPCUrABCXe7HOUYYZxgVRLiG8RfY4DUgFFtC7cffAfZTFBwBdhWEKfgEq4ocEjgj4ZQifO6/QG9kkETp1dDeVWfRKx3XYSW0LoqY5kCElXDrQkyeCCuh6WL0M4nIWQIyzqixdfKU1koFDKvyCA8NJMzU4xiD+b4kfHRpsIyKc6hBwjVptFHVY51EMAINNDFGJITKDNQcdpX74Hz0CQ3rY5qwMp4EIxrlafzrsYZ2Veb0DkRgfNCUok4Y1fqEijfyi2b8RE9beWqa48Y/uvCNMcH9btfUi+/CGLR1vhL6Zz9N/vBlaCU+7lwY/cmJ67Ryen/2tj23PLqJBodZH8vgj544vOL4pxfI5acrSFxi8hrkU9TSKr78ZpnL50A8KPJJEo+afBblwyqf5j/iGys5j6ScrST2AAAAAElFTkSuQmCC"
+        }
+    },
+    {
+        "type": "previous",
+        "width": 56,
+        "align": "right"
+    },
+    {
+        "type": "next",
+        "width": 56,
+        "align": "right"
+    },
+    
+    {
+        "type": "play",
+        "align": "right",
+        "width": 56
+    },
+    {
+        "type": "mute",
+        "width": 56,
+        "align": "right",
+        "bordered": true
+    },
+    {
+        "type": "volume",
+        "width": 130,
+        "align": "right"
+    },
+    {
+        "type": "timeButton",
+        "formatTemplate": "HH:mm",
+        "align": "right",
+        "bordered": false,
+        "longAction": "shellScript",
+        "longExecutablePath": "/usr/bin/pmset",
+        "longShellArguments": ["sleepnow"]
+    },
+    {
+        "type": "exitTouchbar",
+        "width": 56,
+        "align": "right"
+    },
+]
+```
