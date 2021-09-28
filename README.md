@@ -242,7 +242,7 @@ npm install -g create-react-app
 ### Custom folders
 
 ```
-mkdir binaries myapps
+mkdir ~/myapps
 ```
 
 ### Mysql
