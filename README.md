@@ -36,7 +36,9 @@
  * Add Home folder in Sidebar
   * Open Finder, Press *Command + Shift + H*, then *Command + Up Arrow* and then drag and drop Home folder to side bar.
  
- * Remove *All My Files* and *Recents* from sidebar by right clicking and selecting *Remove from Sidebar*
+ * Remove *All My Files* and *Recents* from sidebar by right clicking and selecting *Remove from Sidebar*.
+ * Under *Finder Preferences > General* select *New Finder windows show:* option to *Home directory name*
+ * Under *Finder Preferences > Advanced*, select *When performing a search:* option to *Search the Current Folder*
   
 #### Menubar
 
