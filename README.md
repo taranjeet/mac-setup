@@ -200,9 +200,14 @@ brew install youtube-dl
 
 ### Flycut
 
-Install flycut from [here](https://github.com/TermiT/Flycut/releases). Update Flycut Preferences as
+Install flycut by running
 
-* Check *Launch FLycut on login*
+```sh
+brew install --cask flycut
+```
+
+* Update Flycut Preferences as
+    * Check *Launch FLycut on login*
 
 ### Htop
 
