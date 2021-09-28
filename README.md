@@ -207,7 +207,7 @@ brew install --cask flycut
 ```
 
 * Update Flycut Preferences as
-    * Check *Launch FLycut on login*
+    * Check *Launch Flycut on login*
 
 ### Htop
 
