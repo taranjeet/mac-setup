@@ -48,8 +48,12 @@
 
 #### Keyboard
 
+* Keyboard
+    * Set *Key Repeat* to *Fast*
+    * Set *Delay Until Repeat* to *Short* 
+
 * Text
-  * Uncheck *Add full stop with double-space* under *Text* section.
+    * Uncheck *Add full stop with double-space* under *Text* section.
 
 ## Packages
 
