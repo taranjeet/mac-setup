@@ -13,12 +13,15 @@
 #### Dock
 
 * Check *Automatically hide and show the Dock*
+* Change Dock Size settings to Small
 
 #### Display
 
+* Turn off True Tone settings.
+
 * Night Shift
 
- * Check *Turn On Until Tomorrow*
+ * Check *Custom* and set the timings. Change Color Temperature to *More Warm*
 
 #### Users & Groups
 
@@ -28,12 +31,12 @@
 
 * View
   * Switch to *as Columns*
-  * Switch to *Arrange by* as *Name*
+  * Switch to *Sort by* as *Name*
   
  * Add Home folder in Sidebar
   * Open Finder, Press *Command + Shift + H*, then *Command + Up Arrow* and then drag and drop Home folder to side bar.
  
- * Remove *All My Files* from sidebar by right clicking and selecting *Remove from Sidebar*
+ * Remove *All My Files* and *Recents* from sidebar by right clicking and selecting *Remove from Sidebar*
   
 #### Menubar
 
@@ -46,7 +49,7 @@
 #### Keyboard
 
 * Text
-  * Uncheck *Add period with double-space*
+  * Uncheck *Add full stop with double-space* under *Text* section.
 
 ## Packages
 
