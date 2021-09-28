@@ -175,6 +175,18 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loca
 * Install sublime packages from [dotfiles](https://github.com/taranjeet/dotfiles) repo.
 * Configure Babel to open jsx file as babel intrepreted by following this [link](https://github.com/babel/babel-sublime#setting-as-the-default-syntax)
 
+### Bash Completion
+
+Install bash completion by running
+
+```
+brew install bash-completion
+
+# add following to .bash_profile or .zshrc
+[[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
+```
+
+
 ### Python
 
 ```
