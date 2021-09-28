@@ -43,6 +43,7 @@
 #### Menubar
 
 * Change battery to display percentage
+* Hide *Bluetooth* and *Display* icon in the menubar.
 
 #### Mission Control
 
@@ -56,6 +57,10 @@
 
 * Text
     * Uncheck *Add full stop with double-space* under *Text* section.
+
+#### Spotlight
+
+* Uncheck *fonts*, *images*
 
 ## Packages
 
