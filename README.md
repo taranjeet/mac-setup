@@ -175,6 +175,14 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loca
 * Install sublime packages from [dotfiles](https://github.com/taranjeet/dotfiles) repo.
 * Configure Babel to open jsx file as babel intrepreted by following this [link](https://github.com/babel/babel-sublime#setting-as-the-default-syntax)
 
+
+### Visual Studio Code
+
+```
+brew install --cask visual-studio-code
+```
+
+
 ### Bash Completion
 
 Install bash completion by running
