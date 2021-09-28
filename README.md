@@ -109,9 +109,15 @@ Download and install iterm2 from [here](https://www.iterm2.com/downloads.html)
 
     * Terminal
         * Check Unlimited Scrollback
- 
- * Follow this [link](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x) to jump words backward/forward.
- * Follow the above link only and now add sequence to jump to start/end of line.
+
+    * Text
+        * Set *Cursor* style to *underline*
+        * Check *Blinking cursor*
+        * Update font size to 14pt
+
+    * Keys
+       * Follow this [link](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x) to jump words backward/forward.
+       * Follow the above link only and now add sequence to jump to start/end of line.
 
 
 | Shortcut | Action               | Esc+ |
