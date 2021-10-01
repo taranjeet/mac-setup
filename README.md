@@ -228,6 +228,7 @@ brew install --cask flycut
 
 * Update Flycut Preferences as
     * Check *Launch Flycut on login*
+    * Check *Sticky Bezel*
 
 ### Htop
 
@@ -245,6 +246,18 @@ brew install wget --with-libressl
 
 ```
 brew install tree
+```
+
+### Install Asana, Notion, Spotify Zoom
+
+```
+brew install --cask asana notion spotify zoom
+```
+
+### Install Heroku
+
+```
+brew tap heroku/brew && brew install heroku
 ```
 
 ### Custom Python packages
