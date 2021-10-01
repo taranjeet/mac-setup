@@ -198,18 +198,9 @@ brew install bash-completion
 ### Python
 
 ```
-brew install python@2
-# check if python and pip both are pointing to version 2
+# python3 is by default installed
 
-pip install virtualenv
-```
-
-### Node.js
-
-```
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
-source ~/.zshrc
-nvm install v8.9
+pip3 install virtualenv
 ```
 
 ### Youtube dl
@@ -248,10 +239,10 @@ brew install wget --with-libressl
 brew install tree
 ```
 
-### Install Asana, Notion, Spotify Zoom
+### Install Asana, Notion, Spotify, Vlc Zoom
 
 ```
-brew install --cask asana notion spotify zoom
+brew install --cask asana notion spotify vlc zoom
 ```
 
 ### Install Heroku
@@ -260,17 +251,7 @@ brew install --cask asana notion spotify zoom
 brew tap heroku/brew && brew install heroku
 ```
 
-### Custom Python packages
 
-```
-pip install grip
-```
-
-### Custom Npm packages
-
-```
-npm install -g create-react-app
-```
 
 ### Custom folders
 
@@ -291,58 +272,6 @@ brew install --cask chromedriver
 ```
 
 * Follow [this post](https://stackoverflow.com/questions/60362018/macos-catalinav-10-15-3-error-chromedriver-cannot-be-opened-because-the-de) to give appropriate permissions.
-
-### Java
-
-Download jdk 8 from this [link](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) after accepting the Agreement Terms. Open dmg and follow through the setup process. Check if java is installed properly by running
-
-```
-java -version
-```
-
-### Elasticsearch
-
-Download tar file of required version of elasticsearch from [here](https://www.elastic.co/downloads/elasticsearch). When writing this doc, the latest version is *6.3*. Move the tar to `binaries` folder and extract it.
-
-```
-mv ~/Downloads/elasticsearch-6.3.1.tar.gz ~/binaries
-tar -xvzf elasticsearch-6.3.1.tar.gz
-
-# to run
-./bin/elasticsearch
-```
-
-#### Update Elasticsearch preferences
-
-In `config/elasticsearch.yml`, update `cluster.name` to a custom value.
-
-In `config/jvm.options`, remove `-Xms1g` and `-Xmx1g`, and add the following
-
-```
--Xms500m
--Xmx500m
-```
-
-### Kibana
-
-Download the tar file of required version(latest 6.3) from [here](https://www.elastic.co/downloads/kibana). Move the tar to `binaries` folder and extract it.
-
-```
-mv Downloads/kibana-6.3.1-darwin-x86_64.tar.gz binaries/
-tar -xvzf kibana-6.3.1-darwin-x86_64.tar.gz
-```
-
-### Vlc
-
-Install vlc
-
-```
-brew install --cask vlc
-```
-
-### Evernote
-
-Download evernote from this [link](https://evernote.com/download)
 
 ### MTMR
 
@@ -419,3 +348,72 @@ Download MTMR from [here](https://github.com/Toxblh/MTMR) and use the following 
     },
 ]
 ```
+
+<details>
+  <summary>Old Config and Packages</summary>
+  
+### Evernote
+
+Download evernote from this [link](https://evernote.com/download)
+ 
+### Java
+
+Download jdk 8 from this [link](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) after accepting the Agreement Terms. Open dmg and follow through the setup process. Check if java is installed properly by running
+
+```
+java -version
+```
+
+### Elasticsearch
+
+Download tar file of required version of elasticsearch from [here](https://www.elastic.co/downloads/elasticsearch). When writing this doc, the latest version is *6.3*. Move the tar to `binaries` folder and extract it.
+
+```
+mv ~/Downloads/elasticsearch-6.3.1.tar.gz ~/binaries
+tar -xvzf elasticsearch-6.3.1.tar.gz
+
+# to run
+./bin/elasticsearch
+```
+
+#### Update Elasticsearch preferences
+
+In `config/elasticsearch.yml`, update `cluster.name` to a custom value.
+
+In `config/jvm.options`, remove `-Xms1g` and `-Xmx1g`, and add the following
+
+```
+-Xms500m
+-Xmx500m
+```
+
+### Kibana
+
+Download the tar file of required version(latest 6.3) from [here](https://www.elastic.co/downloads/kibana). Move the tar to `binaries` folder and extract it.
+
+```
+mv Downloads/kibana-6.3.1-darwin-x86_64.tar.gz binaries/
+tar -xvzf kibana-6.3.1-darwin-x86_64.tar.gz
+```
+
+### Node.js
+
+```
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+source ~/.zshrc
+nvm install v8.9
+``` 
+
+### Custom Python packages
+
+```
+pip install grip
+```
+
+### Custom Npm packages
+
+```
+npm install -g create-react-app
+```
+</details>
+
