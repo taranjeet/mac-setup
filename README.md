@@ -117,13 +117,7 @@ Download and install iterm2 from [here](https://www.iterm2.com/downloads.html)
 
     * Keys
        * Follow this [link](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x) to jump words backward/forward.
-       * Follow the above link only and now add sequence to jump to start/end of line.
 
-
-| Shortcut | Action               | Esc+ |
-|:--------:|:--------------------:|:----:|
-| ⌘←	      | Send Escape Sequence | OH   |
-| ⌘→		     | Send Escape Sequence | OF   |
 
 
 ### Oh My Zsh
@@ -415,5 +409,15 @@ pip install grip
 ```
 npm install -g create-react-app
 ```
+ 
+ ### Iterm
+ 
+*  Follow the above link only and now add sequence to jump to start/end of line.
+
+
+| Shortcut | Action               | Esc+ |
+|:--------:|:--------------------:|:----:|
+| ⌘←	      | Send Escape Sequence | OH   |
+| ⌘→		     | Send Escape Sequence | OF   |
 </details>
 
