@@ -280,14 +280,17 @@ mkdir ~/myapps
 
 ### Mysql
 
+* Follow [this post](https://gist.github.com/wpconsulate/40469bfdafad9fdd0afc3e260a5586a7) to install Mysql 5.7
+
+### Chromedriver
+
+* Install by running
+
 ```
-# install mysql 5.6
-brew install mysql
-brew postinstall mysql
-mysql_secure_installation
-login to shell and run the following query
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+brew install --cask chromedriver
 ```
+
+* Follow [this post](https://stackoverflow.com/questions/60362018/macos-catalinav-10-15-3-error-chromedriver-cannot-be-opened-because-the-de) to give appropriate permissions.
 
 ### Java
 
