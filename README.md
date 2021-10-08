@@ -233,10 +233,10 @@ brew install wget --with-libressl
 brew install tree
 ```
 
-### Install Asana, Notion, Spotify, Vlc Zoom
+### Install Asana, Notion, Spotify, Vlc, Zoom, MonitorControl
 
 ```
-brew install --cask asana notion spotify vlc zoom
+brew install --cask asana notion spotify vlc zoom monitorcontrol
 ```
 
 ### Install Heroku
