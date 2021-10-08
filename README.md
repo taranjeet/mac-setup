@@ -194,7 +194,7 @@ brew install bash-completion
 ```
 # python3 is by default installed
 
-pip3 install virtualenv
+pip3 install virtualenv pylint autopep8
 ```
 
 ### Youtube dl
